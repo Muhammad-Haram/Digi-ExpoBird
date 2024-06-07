@@ -43,13 +43,13 @@ const Footer = () => {
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
                   <p className='font-bold text-[14px]'>Digital Marketing</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>About Us</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Services</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Case studies</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Partners</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Blog</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Terms and Condition</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Privacy Policy</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>SMM</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>SEO</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>PPM</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>Email Marketing</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>Influencer Marketing</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>Public Relation (PR)</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/digital'>PPC</a></p>
               </div>
 
               <div>
@@ -57,13 +57,13 @@ const Footer = () => {
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
                   <p className='font-bold text-[14px]'>Web Development</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>About Us</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Services</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Case studies</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Partners</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Blog</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Terms and Condition</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Privacy Policy</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Web Design</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Wordpress Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Web Application</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>CMS Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Laravel Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Webflow Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/web'>Website Maintanance</a></p>
               </div>
 
               <div>
@@ -71,13 +71,13 @@ const Footer = () => {
                   <div className='sm:hidden h-[20px] w-[2px] bg-white'></div>
                   <p className='font-bold text-[14px]'>Mobile Development</p>
                 </div>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>About Us</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Services</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Case studies</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Partners</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Blog</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Terms and Condition</a></p>
-                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='#'>Privacy Policy</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>Hybrid Apps</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>Android App Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>IOS App Development</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>React Native Apps</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>Flutter Apps</a></p>
+                <p className='mb-[10px] text-[16px] sm:text-[14px]'><a href='/services/appdev'>Progressive Web Apps (PWAs)
+                </a></p>
               </div>
 
             </div>
