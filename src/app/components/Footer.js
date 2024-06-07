@@ -20,9 +20,8 @@ const Footer = () => {
                 <div className='sm:mt-[5px] line h-[2px] w-[70px] bg-white mt-[10px]'></div>
                 <div className='flex flex-col'>
                   <p className='sm:mb-[5px] mb-[10px] sm:text-[16px] text-[18px]'>Ontario Tower - Office no 1801 - <br /> 18th Floor - Business Bay - Dubai - United Arab Emirates </p>
-                  <a className='mb-[10px] sm:text-[16px] text-[18px]' href="mailto:discover@digitalgravity.ae?subject=Hello DigitalGravity!">Info@digiexpo.ae</a>
+                  <a className='mb-[10px] sm:text-[16px] text-[18px]' href="mailto:Info@digiexpo.ae">Info@digiexpo.ae</a>
                   <a className='mb-[10px] sm:text-[16px] text-[18px]' href="tel:+97142421375" class="w-uline">+971502230715</a>
-                  {/* <a className='mb-[10px] sm:text-[16px] text-[18px]' href="tel:+97142421375" class="w-uline">+971 4 242 1375</a> */}
 
                   <div className='flex items-center gap-[20px]'>
                     <Image src={"/assets/social/facebook.svg"} width={10} height={10} />
