@@ -8,7 +8,7 @@ const MobileNav = () => {
   const [showServices, setShowServices] = useState(false);
   return (
     <Fragment>
-      <div className="bg-[#000213]">
+      <div className="bg-[#000213] sm:h-[50px]">
 
         <div>
           {
@@ -29,9 +29,9 @@ const MobileNav = () => {
 
         <div>
           <Image
-            className="xl:hidden lg:hidden lg:mb-[20px] 2xl:hidden relative top-5 left-5"
+            className="xl:hidden lg:hidden w-[150px] sm:w-[100px] lg:mb-[20px] 2xl:hidden relative top-5 left-5"
             src={"/assets/logov2.jpg"}
-            width={150}
+            width={0}
             height={0}
             alt="pic"
           />

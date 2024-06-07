@@ -12,7 +12,7 @@ const DigitalHero = ({ text1, para1 }) => (
       </h1>
     </div>
     <div className="text-center my-8">
-      <p className={`${styles.paragraph} font-montserrat max-w-[800px]`}>
+      <p className={`${styles.paragraph} font-montserrat max-w-[800px] p-[20px]`}>
         {para1}
       </p>
     </div>
