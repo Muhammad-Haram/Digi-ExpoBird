@@ -34,7 +34,7 @@ const Navbar = () => {
                   </li>
                 </Link>
 
-                <Link href="/">
+                <Link href="/about">
                   <li className="md:text-[14px] text-white text-[16px] font-semibold">
                     About Us
                   </li>
@@ -74,7 +74,7 @@ const Navbar = () => {
               </Link>
               <button className="bg-[#7b41f9] ml-[20px] p-2 rounded-3xl">
                 <a href="/contact">
-                <Image src={callButton} width={40} height={40} />#
+                <Image src={callButton} width={40} height={40} />
                 </a>
               </button>
             </div>

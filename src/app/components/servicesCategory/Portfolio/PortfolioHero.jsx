@@ -2,8 +2,8 @@ import styles from "../../../style";
 import Button from "../../Button";
 import Image from "next/image";
 
-const PortfolioHero = ({ text1 , para1 }) => (
-  <section className={` ${styles.flexCenter} portfolio flex-col flex-wrap sm:mb-10 pt-16 pb-16`}>
+const PortfolioHero = ({ text1, para1 }) => (
+  <section className={` ${styles.flexCenter} portfolio flex-col flex-wrap sm:mb-10`}>
     <div className="text-center">
       <h1 className={`${styles.heading1} font-montserrat max-w-[800px]`}>
         {text1}

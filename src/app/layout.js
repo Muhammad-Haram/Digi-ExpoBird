@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 export const metadata = {
   title: "DigiExpo",
-  description: "Developers ExpoBird",
+  description: "DigiExpo",
 };
 export default function RootLayout({ children }) {
   return (
@@ -18,8 +18,9 @@ export default function RootLayout({ children }) {
       <body className={roboto.className}>
         {children}
         <Script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></Script>
-        <Script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></Script>
-        <Script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></Script>
+        {/* <Script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></Script>
+         */}
+        {/* <Script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></Script> */}
       </body>
     </html>
   );
