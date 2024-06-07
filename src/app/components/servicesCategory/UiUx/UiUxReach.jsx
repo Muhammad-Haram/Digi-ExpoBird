@@ -39,7 +39,7 @@ const Driven = ({ AnimDataHead, AnimDataPara }) => {
                     </div>
                     <div>
                         <Image className='sm:hidden md:hidden'
-                            src={"/assets/hero-image-expo.png"}
+                            src={"/assets/hero-image-expo2.png"}
                             width={800}
                             height={750}
                             alt=""
