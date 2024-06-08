@@ -19,7 +19,7 @@ const Home = () => {
   return (
     <>
       <Navbar />
-      <MobileNav />
+      {/* <MobileNav /> */}
       <Hero />
       <HeroBackground />
       <Service />
