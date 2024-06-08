@@ -4,6 +4,7 @@ import Footer from '../components/Footer'
 import MobileNav from '../components/MobileNav'
 import Form from '../components/Form'
 import DigitalHero from '../components/About'
+import Driven from '../components/Driven'
 
 const page = () => {
   return (
@@ -35,6 +36,7 @@ const page = () => {
 
       </div>
 
+      <Driven />
       <Form />
       <Footer />
     </>

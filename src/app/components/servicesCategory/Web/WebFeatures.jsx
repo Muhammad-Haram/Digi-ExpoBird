@@ -42,19 +42,19 @@ const FeatureWork = ({ featureHead, featurePara }) => {
 
                         <div className="sm:grid sm:grid-cols-2 grid grid-cols-2 gap-8">
                             <div className="max-w-[605px]">
-                                <Image src={"/assets/work01.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                                <Image src={"/assets/work01.webp"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                                 <p className="sm:text-center sm:ml-[0px] md:text-center md:ml-0 ml-[100px] sm:leading-none text-white sm:text-[20px] mt-8 font-montserrat text-[25px] font-semibold">Zorro University</p>
                             </div>
                             <div className="max-w-[605px] ml-auto">
-                                <Image src={"/assets/work02.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                                <Image src={"/assets/work02.webp"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                                 <p className="sm:text-center sm:leading-none sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-[0px] md:text-center ml-[100px]">Gemmie Skin Care</p>
                             </div>
                             <div className="max-w-[605px]">
-                                <Image src={"/assets/work03.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                                <Image src={"/assets/work03.webp"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                                 <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-0 md:text-center ml-[100px]">Doodle food</p>
                             </div>
                             <div className="max-w-[605px] ml-auto">
-                                <Image src={"/assets/work04.png"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
+                                <Image src={"/assets/work04.webp"} width={350} height={0} className="rounded-[50px] sm:rounded-[20px]" alt="pic" />
                                 <p className="sm:text-center sm:text-[20px] text-white mt-8 font-montserrat text-[25px] font-semibold sm:ml-[0px] md:ml-0 md:text-center ml-[100px]">Doodle food</p>
                             </div>
                         </div>
