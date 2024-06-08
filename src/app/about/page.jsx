@@ -4,8 +4,9 @@ import Footer from '../components/Footer'
 import Form from '../components/Form'
 import About from '../components/About'
 import Image from 'next/image'
-import banner from '../../../public/assets/about/img.png'
+import banner from '../../../public/assets/about/img.webp'
 import MobileNav from '../components/MobileNav'
+import Driven from '../components/Driven'
 
 const page = () => {
     return (
@@ -69,7 +70,7 @@ const page = () => {
                 </div>
 
             </div>
-
+            <Driven/>
             <Form />
             <Footer />
         </div>

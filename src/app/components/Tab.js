@@ -91,7 +91,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -104,7 +104,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -119,7 +119,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -135,7 +135,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -148,7 +148,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -161,7 +161,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -177,7 +177,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -190,7 +190,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -203,7 +203,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -223,7 +223,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -236,7 +236,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -251,7 +251,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -267,7 +267,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -280,7 +280,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -293,7 +293,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -309,7 +309,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -323,7 +323,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -336,7 +336,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -357,7 +357,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -370,7 +370,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -384,7 +384,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -399,7 +399,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -412,7 +412,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -425,7 +425,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -440,7 +440,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -453,7 +453,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -466,7 +466,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -485,7 +485,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -498,7 +498,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -512,7 +512,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -527,7 +527,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -540,7 +540,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -553,7 +553,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -568,7 +568,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -581,7 +581,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -594,7 +594,7 @@ const Tab = () => {
                   </div>
                 <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -613,7 +613,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -626,7 +626,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -639,7 +639,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -654,7 +654,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -667,7 +667,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -680,7 +680,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -695,7 +695,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -708,7 +708,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                   <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -721,7 +721,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -740,7 +740,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:mb-[4rem] sm:mt-[40px] mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/3d_explainer_video_toolkit.jpg"}
+                      src={"/assets/tabs/3d_explainer_video_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -753,7 +753,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/factory-of-3d-animations.jpg"}
+                      src={"/assets/tabs/factory-of-3d-animations.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -766,7 +766,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_typography_pack.jpg"}
+                      src={"/assets/tabs/trendy_typography_pack.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -781,7 +781,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 mb-10'>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -794,7 +794,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/whiteboard_animation_toolkit.jpg"}
+                      src={"/assets/tabs/whiteboard_animation_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -807,7 +807,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/trendy_explainer_toolkit.jpg"}
+                      src={"/assets/tabs/trendy_explainer_toolkit.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -822,7 +822,7 @@ const Tab = () => {
                 <div className='flex justify-start gap-5 sm:hidden'>
                   {/* <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -835,7 +835,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px] sm:hidden'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/luminous_neon_visualizer.jpg"}
+                      src={"/assets/tabs/luminous_neon_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"
@@ -848,7 +848,7 @@ const Tab = () => {
                   </div>
                   <div className='relative w-full h-full rounded-3xl overflow-hidden hover:scale-105 transition-all cursor-pointer border-[#fff] border-0 hover:border-[6px]'>
                     <Image className='w-full h-[100%] hover:cursor-pointer rounded-lg sm:max-w-[100%] max-w-[100%]'
-                      src={"/assets/tabs/album_promo_visualizer.jpg"}
+                      src={"/assets/tabs/album_promo_visualizer.webp"}
                       width={400}
                       height={400}
                       alt="pic"

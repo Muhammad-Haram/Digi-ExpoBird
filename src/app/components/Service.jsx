@@ -1,22 +1,30 @@
 import React, { Fragment } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import webDesign from '../../../public/assets/services/Web-Design-&-Development-Services.webp'
+import DigitalMarketing from '../../../public/assets/services/Digital-Marketing-Services.webp'
+import UiUxServices from '../../../public/assets/services/UI-UX--Services.webp'
+import UiUxDesign from '../../../public/assets/services/UI-UX-Design-Services.webp'
+import AppDev from '../../../public/assets/services/Application-Development Services.webp'
+import Branding from '../../../public/assets/services/Digital-Branding-and-Communication.webp'
+import Animation from '../../../public/assets/services/Animation-Services.webp'
+import VideoPro from '../../../public/assets/services/Video-Production-Services.webp'
 
 const Service = () => {
   return (
     <Fragment>
       <div className="bg-[#ffffff] overflow-x-hidden font-montserrat w-full">
         <div className="sm:p-[40px] md:pt-2 xl:px-10 px-10 relative z-10">
-        <div className="p-10 sm:p-0">
-          <h6 className="sm:text-[30px] md:text-[60px] text-[70px] font-black sm:text-center sm:ml-[5px] ml-[60px] text-black">Our Services</h6>
-        </div>
+          <div className="p-10 sm:p-0">
+            <h6 className="sm:text-[30px] md:text-[60px] text-[70px] font-black sm:text-center sm:ml-[5px] ml-[60px] text-black">Our Services</h6>
+          </div>
           <div className="flex items-center justify-center flex-col">
             <div className='sm:flex-col sm:gap-[30px] md:flex-col md:gap-[0px] flex items-center justify-center gap-[70px] w-full'>
               <div className="sm:w-full md:w-full lg:h-auto w-1/3">
                 <div className='sm:ml-[0px]'>
                   {/* <video  className="py-3" alt="" autoPlay muted controls={false} loop height="800" width="1200"><source src="/assets/services/Digital-Marketing-Services.mp4"></source></video> */}
-                  <Image src="/assets/services/Digital-Marketing-Services.png" height={800} width={1200} className="py-3" alt="" />
-                         </div>
+                  <Image src={DigitalMarketing} height={800} width={1200} className="py-3" alt="" />
+                </div>
               </div>
               <div className="sm:mb-[30px] sm:w-full md:w-full col-span-6 w-1/2">
                 <div className="sm:p-2 p-5">
@@ -34,7 +42,7 @@ const Service = () => {
                         <p className='mb-[5px]'><Link href="/services/digital"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Public Relation(PR)</span></Link></p>
                         <p className='mb-[5px]'><Link href="/services/digital"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-5 mr-3 py-2 px-2'>ASO</span></Link></p>
                         <p className='mb-[5px]'><Link href="/services/digital"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-5 mr-3 py-2 px-2'>PPC</span></Link></p>
-                        </div>
+                      </div>
                       {/* <Link href="/services/web">
                         <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold">
                           See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
@@ -55,10 +63,11 @@ const Service = () => {
                     <div>
                       <p className="text-[25px] text-[#252E48] font-bold pl-5 sm:text-center md:text-center" data-inviewport >Website Development</p>
                       <p className="sm:text-[13px] text-[18px] text-[#545F7E] sm:text-center pl-5 py-3 md:text-center">Bring the digital vision of your brand to life with a user-friendly, and responsive website. Our professional web developers are there to bring your vision to fruition.</p>
+
                       {/* <p className="text-[18px] sm:text-center text-[#252E48] font-medium sm:text-center pl-5 py-3 md:text-center">Replaces: Your website subscription
                       </p> */}
 
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services">
+                      <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services">
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Web Design</span></Link></p>
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Wordpress Development</span></Link></p>
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Web Application</span></Link></p>
@@ -67,7 +76,7 @@ const Service = () => {
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Website Maintanance</span></Link></p>
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-5 mr-3 py-2 px-2'>Laravel Developement</span></Link></p>
                         <p className='mb-[5px]'><Link href="services/web"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-5 mr-3 py-2 px-2'>Webflow Development</span></Link></p>
-                        </div>
+                      </div>
                       {/* <Link href="/services/web">
                         <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold">
                           See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
@@ -81,7 +90,7 @@ const Service = () => {
               </div>
               <div className="sm:w-full md:w-full lg:h-auto w-1/3">
                 <div className='sm:ml-[0px]'>
-                  <Image src="/assets/services/Web-Design-&-Development-Services.jpg" height={800} width={1200} className="py-3" alt="" />
+                  <Image src={webDesign} height={800} width={1200} className="py-3" alt="" />
                 </div>
               </div>
             </div>
@@ -91,7 +100,7 @@ const Service = () => {
             <div className='sm:flex-col sm:gap-[30px] md:flex-col md:gap-[0px] flex items-center justify-center gap-[70px] w-full'>
               <div className="sm:w-full md:w-full lg:h-auto w-1/3">
                 <div className='sm:ml-[0px]'>
-                  <Image src="/assets/services/UI-UX-Design-Services.png" height={800} width={1200} className="py-3" alt="" />
+                  <Image src={UiUxDesign} height={800} width={1200} className="py-3" alt="" />
                 </div>
               </div>
               <div className="sm:mb-[30px] sm:w-full md:w-full col-span-6 w-1/2">
@@ -102,7 +111,7 @@ const Service = () => {
                       <p className="sm:text-[13px] text-[18px] text-[#545F7E]sm:text-center pl-5 py-3 md:text-center">We will help you to increase your brand's visibility, engagement, and business growth with our expert social media marketers. We will take your brand to new heights in the digital competition.</p>
                       {/* <p className="text-[18px] sm:text-center text-[#252E48] font-mediumsm:text-center pl-5 py-3 md:text-center">Replaces: Your website subscription
                       </p> */}
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                      <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
                         <p className='mb-[5px]'><Link href="/services/commerce"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Shopify Development</span></Link></p>
                         <p className='mb-[5px]'><Link href="/services/commerce"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>WooCommerce Development</span></Link></p>
                         <p className='mb-[5px]'><Link href="/services/commerce"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Wix Development</span></Link></p>
@@ -111,7 +120,7 @@ const Service = () => {
                         <p className='mb-[5px]'><Link href="/services/commerce"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Big Commerce Development</span></Link></p>
                         <p className='mb-[5px]'><Link href="/services/commerce"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Ecommerce Shoot</span></Link></p>
 
-                        </div>
+                      </div>
                       {/* <Link href="/services/web">
                         <button className="buttonv2 justify-end px-6 py-4 rounded-[40px] text-[#fff] text-[17px] font-semibold">
                           See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
@@ -142,14 +151,14 @@ const Service = () => {
                       See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
                     </button>
                   </Link> */}
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>PSD to Responsive HTML</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Design Workshop</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Design</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Landing Page Design</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Audit</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Resposive Web Design</span></Link></p>
-                      </div>
+                  <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>PSD to Responsive HTML</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Design Workshop</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Design</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Landing Page Design</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>UX Audit</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/ui"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Resposive Web Design</span></Link></p>
+                  </div>
                 </div>
               </div>
               <div className="bg-white shadow-xl p-4 rounded-xl">
@@ -158,7 +167,7 @@ const Service = () => {
           </div>
           <div className="sm:w-full md:w-full lg:h-auto w-1/3">
             <div className='sm:ml-[0px]'>
-              <Image src="/assets/services/UI-UX--Services.png" height={800} width={1200} className="py-3" alt="" />
+              <Image src={UiUxServices} height={800} width={1200} className="py-3" alt="" />
             </div>
           </div>
         </div>
@@ -166,7 +175,7 @@ const Service = () => {
         <div className='sm:flex-col sm:gap-[30px] md:flex-col md:gap-[0px] flex items-center justify-center gap-[70px] w-full'>
           <div className="sm:w-full md:w-full lg:h-auto w-1/3">
             <div className='sm:ml-[0px]'>
-              <Image src="/assets/services/Application-Development Services.png" height={800} width={1200} className="py-3" alt="" />
+              <Image src={AppDev} height={800} width={1200} className="py-3" alt="" />
             </div>
           </div>
           <div className="sm:mb-[30px] sm:w-full md:w-full col-span-6 w-1/2">
@@ -183,14 +192,14 @@ const Service = () => {
                     </button>
                   </Link> */}
 
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Hybrid Apps</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Android App Development</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>IOS App Development</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>React Native Apps</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Flutter Apps</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Progressive Web Apps (PWAs)</span></Link></p>
-                      </div>
+                  <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Hybrid Apps</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Android App Development</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>IOS App Development</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>React Native Apps</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Flutter Apps</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/appdev"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Progressive Web Apps (PWAs)</span></Link></p>
+                  </div>
                 </div>
               </div>
               <div className="bg-white shadow-xl p-4 rounded-xl">
@@ -213,14 +222,14 @@ const Service = () => {
                       See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
                     </button>
                   </Link> */}
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Company Profile Design</span></Link></p>
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Brochure Design</span></Link></p>
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Corporate Identity Design</span></Link></p>
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Packaging Designs</span></Link></p>
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Logo Designs</span></Link></p>
-                        <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Business Card Design</span></Link></p>
-                      </div>
+                  <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Company Profile Design</span></Link></p>
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Brochure Design</span></Link></p>
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Corporate Identity Design</span></Link></p>
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Packaging Designs</span></Link></p>
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Logo Designs</span></Link></p>
+                    <p className='mb-[5px]'><Link href="services/social"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Business Card Design</span></Link></p>
+                  </div>
                 </div>
               </div>
               <div className="bg-white shadow-xl p-4 rounded-xl">
@@ -229,7 +238,7 @@ const Service = () => {
           </div>
           <div className="sm:w-full md:w-full lg:h-auto w-1/3">
             <div className='sm:ml-[0px]'>
-              <Image src="/assets/services/Digital-Branding-and-Communication.png" height={800} width={1200} className="py-3" alt="" />
+              <Image src={Branding} height={800} width={1200} className="py-3" alt="" />
             </div>
           </div>
         </div>
@@ -239,7 +248,7 @@ const Service = () => {
           <div className="sm:w-full md:w-full lg:h-auto w-1/3">
             <div className='sm:ml-[0px]'>
               <div className='sm:ml-[0px]'>
-                <Image src="/assets/services/Animation-Services.png" height={800} width={1200} className="py-3" alt="" />
+                <Image src={Animation} height={800} width={1200} className="py-3" alt="" />
               </div>
             </div>
           </div>
@@ -256,13 +265,13 @@ const Service = () => {
                       See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
                     </button>
                   </Link> */}
-                      <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
-                        <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Whiteboard Animation</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Animation Explainer Video</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>3D Animation</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>2D Animation</span></Link></p>
-                        
-                      </div>
+                  <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                    <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Whiteboard Animation</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Animation Explainer Video</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>3D Animation</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/animation"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>2D Animation</span></Link></p>
+
+                  </div>
                 </div>
               </div>
               <div className="bg-white shadow-xl p-4 rounded-xl">
@@ -289,13 +298,12 @@ const Service = () => {
                       See All <span><Image src={"/assets/Send-arrow.svg"} className="inline" width={21} height={20} alt="pic" /></span>
                     </button>
                   </Link> */}
-                                        <div  className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
-                        <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Corporate Video Production</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Digital Video Commercials </span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Product Unboxing</span></Link></p>
-                        <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>TV Commercial</span></Link></p>
-                        
-                      </div>
+                  <div className="text-[14px] sm:text-center text-[#252E48] font-medium  pl-5 py-3 leading-[3] display_services ">
+                    <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Corporate Video Production</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Digital Video Commercials </span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>Product Unboxing</span></Link></p>
+                    <p className='mb-[5px]'><Link href="/services/video"><span className='border-2 rounded-md border-[#7B41F8] border-solid mt-2 mr-3 py-2 px-2'>TV Commercial</span></Link></p>
+                  </div>
 
                 </div>
               </div>
@@ -305,7 +313,7 @@ const Service = () => {
           </div>
           <div className="sm:w-full md:w-full lg:h-auto w-1/3">
             <div className='sm:ml-[0px]'>
-              <Image src="/assets/services/Video-Production-Services.png" height={800} width={1200} className="py-3" alt="" />
+              <Image src={VideoPro} height={800} width={1200} className="py-3" alt="" />
             </div>
           </div>
         </div>
